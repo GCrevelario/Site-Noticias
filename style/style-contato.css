@@ -1,0 +1,58 @@
+main{
+    
+    margin: 0% 10% auto;
+}
+
+form{
+    margin: 40px 0 auto;
+}
+
+form label{
+
+    font-family: 'Abel', sans-serif;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+form input, form textarea, .enviar{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar{
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    border: none;
+    transition: 1s color;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    color: #ff0000;
+}
+
+@media screen and (max-width: 480px){
+    main{
+        margin: 0% 10% 20%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    main{
+        margin: 0% 10% 50%;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    main{
+        margin: 0% 10% 50%;
+    }
+}
+
+

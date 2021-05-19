@@ -56,8 +56,15 @@ nav img{
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
+    text-decoration: none;
 
 }
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 
 .noticias li:hover{
     border-color: #ff0000;
